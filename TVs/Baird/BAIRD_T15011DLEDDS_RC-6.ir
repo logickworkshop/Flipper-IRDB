@@ -24,7 +24,7 @@ command: 0F 00 00 00
 name: CH+
 type: parsed
 protocol: NEC
-address: 01 00  00 00
+address: 01 00 00 00
 command: 0C 00 00 00
 # 
 name: CH-
@@ -64,7 +64,7 @@ address: 01 00 00 00
 command: 1C 00 00 00
 # 
 name: OK
-type: prased
+type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 1D 00 00 00
@@ -101,7 +101,7 @@ command: 16 00 00 00
 # 
 name: PMODE
 type: parsed
-protocol: NECx
+protocol: NEC
 address: 01 00 00 00
 command: 14 00 00 00
 # 
@@ -276,7 +276,7 @@ command: 44 00 00 00
 name: RECLIST
 type: parsed
 protocol: NEC
-address: 01 00 00 00
+address: 01 00 00 01
 command: 00 00 00 00
 # 
 name: EPG
