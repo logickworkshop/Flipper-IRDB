@@ -115,3 +115,45 @@ type: parsed
 protocol: SIRC20
 address: 3A 1E 00 00
 command: 11 00 00 00
+#
+# Hidden:
+name: Focus
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 29 00 00 00
+#
+# Hidden
+name: Scale Up (+)
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 4C 00 00 00
+#
+# Hidden
+name: Scale Down (-)
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 4D 00 00 00
+#
+# Hidden
+name: Shutter
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 65 00 00 00
+#
+# Hidden - This takes 1 photo, and will not allow another until shutter-unlock is sent
+name: Shutter-Lock
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 66 00 00 00
+#
+# Hidden
+name: Shutter-Unlock
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 67 00 00 00
