@@ -6,13 +6,20 @@ type: parsed
 protocol: SIRC20
 address: 3A 1E 00 00
 command: 2D 00 00 00
-# 
+#
+# Hidden - The previous takes 1 photo, even in continuous mode. This will allow for continuous shooting.
+name: Continuous Photo
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 65 00 00 00
+#
 name: Photo_2s
 type: parsed
 protocol: SIRC20
 address: 3A 1E 00 00
 command: 37 00 00 00
-# 
+#
 name: Rec
 type: parsed
 protocol: SIRC20
@@ -136,13 +143,6 @@ type: parsed
 protocol: SIRC20
 address: 3A 1E 00 00
 command: 4D 00 00 00
-#
-# Hidden
-name: Shutter
-type: parsed
-protocol: SIRC20
-address: 3A 1E 00 00
-command: 65 00 00 00
 #
 # Hidden - This takes 1 photo, and will not allow another until shutter-unlock is sent
 name: Shutter-Lock
