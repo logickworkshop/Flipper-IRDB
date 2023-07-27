@@ -4,25 +4,25 @@ Version: 1
 # LG magic remote for the 2019 LG C-series
 # receiver POWER, voice control, scrolling and gyro do not use IR, and so are not in this file
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: Vol +
+name: VOL+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol -
+name: VOL-
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -100,13 +100,13 @@ protocol: NEC
 address: 04 00 00 00
 command: AB 00 00 00
 # 
-name: Ch +
+name: CH+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: Ch -
+name: CH-
 type: parsed
 protocol: NEC
 address: 04 00 00 00
