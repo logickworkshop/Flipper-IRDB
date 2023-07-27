@@ -1,0 +1,1 @@
+Add remotes by REMOTE model number! Not TV model number
