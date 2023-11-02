@@ -49,79 +49,79 @@ protocol: NECext
 address: 7E 7E 00 00
 command: 1D E2 00 00
 #
-name: Time_Dim_Off
+name: T_Dim_Off
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 0D F2 00 00
 #
-name: Time_Dim_5min
+name: T_Dim_5min
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 0C F3 00 00
 #
-name: Time_Dim_10min
+name: T_Dim_10min
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 0E F1 00 00
 #
-name: Time_Dim_30min
+name: T_Dim_30min
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 0F F0 00 00
 #
-name: Time_Off_Off
+name: T_Off_Off
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 11 EE 00 00
 #
-name: Time_Off_5min
+name: T_Off_5min
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 10 EF 00 00
 #
-name: Time_Off_10min
+name: T_Off_10min
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 12 ED 00 00
 #
-name: Time_Off_30min
+name: T_Off_30min
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 13 EC 00 00
 #
-name: Amb_Light_Off
+name: Amb_Lt_Off
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 15 EA 00 00
 #
-name: Amb_Light_Overcast
+name: Amb_Lt_Ovrcst
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 14 EB 00 00
 #
-name: Amb_Light_Dusk
+name: Amb_Lt_Dusk
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 16 E9 00 00
 #
-name: Amb_Light_Night
+name: Amb_Lt_Night
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
 command: 17 E8 00 00
 #
-name: Dist_Very_Near
+name: Dist_V_Near
 type: parsed
 protocol: NECext
 address: 7E 7E 00 00
