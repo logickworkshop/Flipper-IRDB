@@ -5,7 +5,7 @@ name: POWER
 type: parsed
 protocol: NEC
 address: 44 00 00 00
-command: 1B 00 00 00
+commadnd: 1B 00 00 00
 # 
 name: Pan_up
 type: parsed
