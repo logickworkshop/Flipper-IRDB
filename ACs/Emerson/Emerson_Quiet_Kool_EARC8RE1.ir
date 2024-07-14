@@ -1,6 +1,12 @@
 Filetype: IR signals file
 Version: 1
 # 
+# TYPE: AC - Window
+# BRAND: Emerson
+# MODEL: Quiet Kool EARC8RE1 
+# Emerson Quiet Kool 8,000 BTU 115V Window Air Conditioner & Dehumidifier with Remote Control, Window AC Unit for Apartment, Dorm Room & Small/Medium Rooms up to 350 Sq. Ft. in White
+# PROTOCOL: RAW
+#
 name: Power
 type: raw
 frequency: 38000
