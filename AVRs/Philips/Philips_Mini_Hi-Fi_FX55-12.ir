@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# For Phillips FX55 Hi-Fi System
+# For Philips FX55 Hi-Fi System
 # 
 name: Power
 type: parsed

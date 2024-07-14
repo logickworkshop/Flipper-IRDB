@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# For Phillips CD-723 Player
+# For Philips CD-723 Player
 # 
 name: Power
 type: parsed
