@@ -1,0 +1,92 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On_off
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 59 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 1A 00 00 00
+# 
+name: Yukari
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 06 00 00 00
+# 
+name: Asa
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 16 00 00 00
+# 
+name: Sag
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 1B 00 00 00
+# 
+name: SOll
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 5A 00 00 00
+# 
+name: Info
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 15 00 00 00
+# 
+name: Recall
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 45 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 05 00 00 00
+# 
+name: Option
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 0E 00 00 00
+# 
+name: Kirmizi
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 42 00 00 00
+# 
+name: Yesil
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 40 00 00 00
+# 
+name: Sari
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 00 00 00 00
+# 
+name: Mavi
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 03 00 00 00
