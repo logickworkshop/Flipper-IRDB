@@ -1,7 +1,10 @@
 Filetype: IR signals file
 Version: 1
 #
-# Emerson Quiet Kool AC
+# TYPE: AC - Portable
+# BRAND: Emerson
+# MODEL: Quiet Kool EAPCxxxx, unknown subcategory 
+# PROTOCOL: NEC
 #
 name: Power
 type: parsed
