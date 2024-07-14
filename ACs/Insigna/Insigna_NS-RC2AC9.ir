@@ -1,7 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Insigna AC NSRC2AC9
+# Insigna NS-RC2AC9 Remote
+# Compatible with NS-AC10PWH AC
 # 
 name: POWER
 type: parsed
