@@ -1,0 +1,49 @@
+Filetype: IR signals file
+Version: 1
+#
+# TYPE: AC - Portable
+# BRAND: Emerson
+# MODEL: Quiet Kool EAPCxxxx, unknown subcategory 
+# PROTOCOL: NEC
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 6B 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 69 00 00 00
+# 
+name: Fan Speed
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 64 00 00 00
+#
+name: Temp+
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 65 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 68 00 00 00
+#
+name: Mode
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 66 00 00 00
+# 
+name: Vent Angle
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 67 00 00 00

@@ -1,0 +1,194 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power ON
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C0 3F 00 00
+# 
+name: Power OFF
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 9F 60 00 00
+# 
+name: CD
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C0 3F 00 00
+# 
+name: Tuner
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C0 3F 00 00
+# 
+name: Phono
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C0 3F 00 00
+# 
+name: TV
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C0 3F 00 00
+# 
+name: Tape
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C0 3F 00 00
+# 
+name: Aux
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C0 3F 00 00
+# 
+name: CDR
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C0 3F 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: DE 21 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C7 38 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C8 37 00 00
+# 
+name: Play/Pause
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 22 DD 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 21 DE 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 25 DA 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 24 DB 00 00
+# 
+name: Rwd
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 27 D8 00 00
+# 
+name: Fwd
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 26 D9 00 00
+# 
+name: Open/Close
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 20 DF 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 2A D5 00 00
+# 
+name: Random
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 6D 92 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 31 CE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 32 CD 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 33 CC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 34 CB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 35 CA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 36 C9 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 37 C8 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 38 C7 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 39 C6 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: 30 CF 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C1 3E 00 00
