@@ -1,5 +1,7 @@
 Filetype: IR signals file
 Version: 1
+#
+# MAXCAN MH-602BRC
 # 
 name: On_off
 type: parsed
