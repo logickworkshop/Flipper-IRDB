@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+#
+# DYON MOVIE SMART 40 VX-2 V3
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 01 FE 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 18 E7 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 1C E3 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 02 FD 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 0C F3 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 10 EF 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 07 F8 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 44 BB 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 49 B6 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 4A B5 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 0B F4 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 0F F0 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 08 F7 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 0A F5 00 00
