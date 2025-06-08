@@ -1,0 +1,64 @@
+{
+  "key_map": {
+    "PWR": {
+      "type": "NAME",
+      "key_name": "Power"
+    },
+    "CH_UP": {
+      "type": "NAME",
+      "key_name": "Ch_next"
+    },
+    "CH_DOWN": {
+      "type": "NAME",
+      "key_name": "Ch_prev"
+    },
+     "AUX": {
+      "type": "NAME",
+      "key_name": "Input"
+    },
+     "VOL_UP": {
+      "type": "NAME",
+      "key_name": "Vol_up"
+    },
+     "VOL_DOWN": {
+      "type": "NAME",
+      "key_name": "Vol_dn"
+    },
+    "EXIT": {
+      "type": "NAME",
+      "key_name": "Exit"
+    },
+    "BACK": {
+      "type": "NAME",
+      "key_name": "Back"
+    }
+    "OK": {
+      "type": "NAME",
+      "key_name": "Ok"
+    },
+     "LEFT": {
+      "type": "NAME",
+      "key_name": "Left"
+    },
+     "RIGHT": {
+      "type": "NAME",
+      "key_name": "Right"
+    },
+     "UP": {
+      "type": "NAME",
+      "key_name": "Up"
+    },
+    "DOWN": {
+      "type": "NAME",
+      "key_name": "Down"
+    },
+    "MUTE": {
+      "type": "NAME",
+      "key_name": "Mute"
+    },
+    "MENU": {
+      "type": "NAME",
+      "key_name": "Menu"
+    }
+  }
+}

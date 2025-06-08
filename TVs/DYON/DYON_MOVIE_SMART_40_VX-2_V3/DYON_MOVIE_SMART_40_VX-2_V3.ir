@@ -26,6 +26,12 @@ type: parsed
 protocol: NECext
 address: 00 BD 00 00
 command: 02 FD 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 0D F2 00 00
 # 
 name: Vol_up
 type: parsed
