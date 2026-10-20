@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+#
+# Philips CSS2133B/F7 Soundbar (P&F USA, manufactured 2015)
+# RC6 mode 0, 36 kHz. Note the address split:
+#   0x15 = Power + wired inputs (AUX, Coax/Opt, Music iLink)
+#   0x10 = Bluetooth, Surround, Mute, Volume, Bass, Treble
+# Remotes for the 0x10-only Philips bars (e.g. HTL2163) control volume
+# but cannot switch the wired inputs on this model.
+# All 13 keys verified on hardware with a Flipper Zero.
+#
+name: Power
+type: parsed
+protocol: RC6
+address: 15 00 00 00
+command: 0C 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 10 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 11 00 00 00
+#
+name: Mute
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 0D 00 00 00
+#
+name: Aux
+type: parsed
+protocol: RC6
+address: 15 00 00 00
+command: 38 00 00 00
+#
+name: Coax_Opt
+type: parsed
+protocol: RC6
+address: 15 00 00 00
+command: 39 00 00 00
+#
+name: Music_iLink
+type: parsed
+protocol: RC6
+address: 15 00 00 00
+command: 86 00 00 00
+#
+name: Bluetooth
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 69 00 00 00
+#
+name: Surround
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 52 00 00 00
+#
+name: Bass_up
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 16 00 00 00
+#
+name: Bass_dn
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 17 00 00 00
+#
+name: Treble_up
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 18 00 00 00
+#
+name: Treble_dn
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 19 00 00 00
